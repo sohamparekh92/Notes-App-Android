@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.soham.firstapp.MainActivity">
+
+    <item
+        android:id="@+id/info"
+        android:title="About"
+        android:icon="@drawable/infoicon1"
+        android:onClick="info"
+        app:showAsAction="always"/>
+</menu>

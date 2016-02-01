@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.soham.firstapp.InfoActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:id="@+id/scrollView">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="This app instantly saves a note once you enter its title and content. It&apos;s useful in may contexts such as memorizing words for GRE or remembering tasks for the day etc. You may tap the book image in the home page to view the notes. Press &apos;SAVE&apos; after entering the content and the title in oreder to create a new note. the search field above the list searches through the list using the note titles. However, if you cannot remember the title, you can use the advanced search feature. The advanced search searches trhough the contents of the notes and returns document with the best match to the query. Tap and hold on a note to delete it."
+            android:id="@+id/textView3" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Creative Feature >"
+            android:id="@+id/creativeInfo"
+            android:onClick="creativeActivity"
+            android:layout_marginBottom="39dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="References:"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="https://www.youtube.com/watch?v=YVHnqv9ouAM"
+            android:autoLink="web"
+            android:id="@+id/textView4"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="http://developer.android.com/guide/topics/resources/menu-resource.html"
+            android:autoLink="web"
+            android:id="@+id/textViewx"/>
+
+
+
+    </LinearLayout>
+    </ScrollView>
+
+
+
+</RelativeLayout>
